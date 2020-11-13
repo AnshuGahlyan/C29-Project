@@ -103,6 +103,6 @@ function mouseReleased(){
 }
 function keyPressed(){
 	if (keyCode===32){
-		chain1.attach(polygon.body)
+		chain1.attach(this.polygon.body)
 	}
 }
